@@ -1,7 +1,16 @@
 {
   "type": "module",
   "dependencies": {
+    "expo": "^51.0.38",
     "express": "^4.21.1",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "react": "18.2.0",
+    "react-native": "0.74.5"
+  },
+  "name": "midia_indoor",
+  "version": "1.0.0",
+  "scripts": {
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   }
 }
